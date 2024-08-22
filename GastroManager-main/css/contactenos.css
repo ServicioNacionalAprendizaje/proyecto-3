@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ba7c2d;
+    height: 130px;
+
+}
+
+header img{
+    float: left;
+    width: 130px;
+    height: 130px;
+}
+
+header h1{
+    font-family: "Alegreya Sans", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+ }
+
+header p{
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+.restaurant-form{
+    display: block;
+    position: relative;
+    margin: 20px;
+}
+
+.contacto-form{
+    border: 1px solid #dedfe0;
+    margin: 20px;
+}
+
+.horario-container{
+    border: 1px solid #dedfe0;
+}
+
+.title-horario{
+    width: 100%;
+    height: 55px;
+    background-color: #dedfe0;
+    padding-left: 25px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.hora-fecha {
+    width: 100%;
+    display: block;
+}
+
+.apertura-cierre{
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-direccion{
+    margin-right: 50px;
+}
+
+.label-direccion{
+    margin: 5px;
+}
+
+.dias-atencion{
+    margin: 10px 20px;
+    padding: 15ps;
+}
+
+.dias-atencion{
+    display: block;
+    align-content: center;
+}
+
+.title-aforo{
+    width: 100%;
+    height: 55px;
+    background-color: #dedfe0;
+    padding-left: 25px;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.apertura-container{
+    border: 1px solid #dedfe0;
+    margin: 20px;
+}
+
+.mesas{
+    margin: 20px;
+}
+
+.guardar{
+    text-align: center;
+}
+
+.btn-guardar{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0097b2;
+    color: #fbf8ed;
+    font-weight: bold;
+    cursor: pointer;
+}

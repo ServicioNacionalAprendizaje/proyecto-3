@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ba7c2d;
+    height: 130px;
+
+}
+
+header img{
+    float: left;
+    width: 130px;
+    height: 130px;
+}
+
+header h1{
+    font-family: "Alegreya Sans", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+ }
+
+header p{
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+.restaurant-form{
+    display: block;
+    position: relative;
+    margin: 20px;
+}
+
+.menu-form{
+    border: 1px solid #dedfe0;
+    margin: 20px;
+}
+
+.menu-container{
+    border: 1px solid #dedfe0;
+}
+
+.category {
+    width: 100%;
+    height: 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.category-input{
+    display: block;
+    width: 30%;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.category-label{
+    display: block;
+    margin-left: 8px;
+}
+
+.producto-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr 6fr 3fr);
+    
+}
+
+.producto-img{
+    width: 70px;
+    height: 70px;
+    float: inline-start;
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.producto-input{
+    display: block;
+    width: 30%;
+    height: 25px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.producto-label {
+    display: block;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.producto-label-des {
+    display: block;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.textarea-description{
+    width: 350px;
+    height: 60px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.name-restaurant{
+    margin: 10px;
+}
+
+.category {
+    background: #dedfe0;
+}
+
+.btn-delete-copy{
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    float: inline-end;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.btn-img{
+    height: 25px;
+}
+
+.btn-agregar1{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #00bf63;
+    color: #fbf8ed;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-agregar2{
+    border: 2px solid #00bf63;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: #fbf8ed;
+    color: #00bf63;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.guardar{
+    text-align: center;
+}
+
+.btn-guardar{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #0097b2;
+    color: #fbf8ed;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.items-container{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
